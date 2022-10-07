@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+
+*{
+    margin: auto;
+}
+body{
+    background-image: url(fundo2.jpg);
+    background-size: 50%;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 10px;
+}
+
+
+/*----------------------------*/
+.containergeral{
+    background-color: rgba(0, 0, 0, 0.548);
+    max-width: 1000px;
+    min-width: 370px ;
+    border: #ccc;
+    border-style: double;
+    
+
+}
+.imagem{
+    background-image: url(bannerfinal.png);
+    background-size: 100%;
+    height: 70vh;
+    max-width: 1000px;
+    min-width: 370px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.texto{
+    text-align: justify;
+    padding: 15px;
+    color: #ccc;
+	font-size: 1.25em;
+	font-weight: normal;
+    line-height: 2em;
+}
+.imagens1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    min-width: 370px;
+    max-width: 1000px;
+}
+#fotos1{
+   background-image: url(CLOTHES1.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 250px;
+   height: 60vh;
+   background-size: 100%;
+   display: flex;
+   border-radius: 8px;
+   
+}
+#fotos2{
+    background-image: url(CLOTHES2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 250px;
+   height: 60vh;
+   background-size: 100%;
+   display: flex;
+   border-radius: 8px;
+}
+#fotos3{
+    background-image: url(COTHES3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 250px;
+   height: 60vh;
+   background-size: 100%;
+   display: flex;
+   border-radius: 8px;
+}
+footer{
+    padding-top: 50px;
+    background-image: url(footer.png);
+    width: 1000px;
+    height: 10vh;
+}
+
+h1{
+    font-family: 'Alkalami', serif;
+    text-align: center;
+    
+}
+p{
+    font-family: 'Alkalami', serif;
+    color: #ccc;
+    text-align: center;
+    font-size: 5.5mm;
+}
+a{
+    color: rgb(47, 62, 95);
+    text-decoration: none;
+}
